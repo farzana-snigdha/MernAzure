@@ -21,7 +21,7 @@ const userSchema = mongoose.Schema({
 });
 
 //db model
-const User = new mongoose.model("User", userSchema);
+const User = new mongoose.model("AzureUser", userSchema);
 
 app.get("/get-users", (req, res) => {
   User.find()
