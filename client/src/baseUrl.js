@@ -1,4 +1,3 @@
 // const baseUrl = "http://localhost:3001";
-const baseUrl = "https://mern-azure-swe4602-try2.azurewebsites.net/";
-
+const baseUrl = "https://swe4602-laba.azurewebsites.net/"
 export default baseUrl;
